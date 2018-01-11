@@ -1,25 +1,21 @@
 variable "azure_client_id" {
   type        = "string"
   description = "Azure Client ID"
-  default     = ""
 }
 
 variable "azure_client_secret" {
   type        = "string"
   description = "Azure Client Secret"
-  default     = ""
 }
 
 variable "azure_tenant_id" {
   type        = "string"
   description = "Azure Tenant ID"
-  default     = ""
 }
 
 variable "azure_subscription_id" {
   type        = "string"
   description = "Azure Subscription ID"
-  default     = ""
 }
 
 variable "openshift_azure_resource_prefix" {
@@ -76,19 +72,19 @@ variable "openshift_azure_node_vm_count" {
 variable "openshift_azure_master_vm_size" {
   type        = "string"
   description = "Master VM size"
-  default     = "Standard_DS2_v2"
+  default     = "Standard_D2"
 }
 
 variable "openshift_azure_infra_vm_size" {
   type        = "string"
   description = "Infra VM size"
-  default     = "Standard_DS2_v2"
+  default     = "Standard_D2"
 }
 
 variable "openshift_azure_node_vm_size" {
   type        = "string"
   description = "Node VM size"
-  default     = "Standard_DS2_v2"
+  default     = "Standard_D2"
 }
 
 variable "openshift_azure_data_disk_size" {
